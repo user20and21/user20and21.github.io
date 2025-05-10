@@ -21,6 +21,13 @@ header img {
   height: auto;
   margin-bottom: 1em;
 }
+header img.banner {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1em;
+  max-height: 300px; /* Optional: limit banner height */
+  object-fit: cover;  /* Ensures it crops nicely if height is limited */
+}
 
 header h1 {
   font-size: 2.5rem;
