@@ -10,9 +10,9 @@ body {
 }
 
 header {
-  background-color: #004080;
+  background: url("image.webp") center/cover no-repeat, #004080;
   color: white;
-  padding: 2em 1em;
+  padding: 6em 1em 2em; /* Adjusts height with spacing for text */
   text-align: center;
 }
 
